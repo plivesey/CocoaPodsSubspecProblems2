@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ObjcClass.h"
+@import MyLib;
 
 @interface ObjcClass2 : NSObject
 

@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if ObjcClass2.isCorrectEnum(MyEnum.1) {
+        if ObjcClass2.isCorrectEnum(MyEnum.Enum1) {
             _ = ObjcClass()
         }
     }

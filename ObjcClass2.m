@@ -11,7 +11,7 @@
 @implementation ObjcClass2 : NSObject
 
 + (BOOL)isCorrectEnum:(MyEnum)myEnum {
-    return myEnum == MyEnum1
+    return myEnum == MyEnum1;
 }
 
 @end
