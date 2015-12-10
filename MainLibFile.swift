@@ -7,9 +7,17 @@
 //
 
 import Foundation
+import MyLib
 
-public class MainLibFile {
-    public init() {
+public class MainLibFile: ObjcClass2 {
+
+    let x = ObjcClass()
+
+    override public init() {
+        super.init()
+    }
+
+    public func genericFunc<T: MyProtocol>(arg: T) {
 
     }
 }

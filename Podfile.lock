@@ -1,16 +1,22 @@
 PODS:
+  - MyLib (1.0.0):
+    - MyLib/Main (= 1.0.0)
   - MyLib/Main (1.0.0)
-  - MyLib/Test (1.0.0)
+  - MyLibSwift/Swift (1.0.0):
+    - MyLib
 
 DEPENDENCIES:
-  - MyLib/Main (from `.`)
-  - MyLib/Test (from `.`)
+  - MyLib (from `.`)
+  - MyLibSwift/Swift (from `.`)
 
 EXTERNAL SOURCES:
   MyLib:
     :path: .
+  MyLibSwift:
+    :path: .
 
 SPEC CHECKSUMS:
-  MyLib: 4fd3990ca2501e09fab8bb79f31ba69d732b2776
+  MyLib: 74a8b5aeeccde58150c8fc26f3ce33e66f6654e3
+  MyLibSwift: 6e7ea618456d46e9c40db715ffbfa5aa240723e7
 
 COCOAPODS: 0.39.0

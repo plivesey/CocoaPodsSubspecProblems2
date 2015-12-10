@@ -8,13 +8,15 @@
 
 import UIKit
 import MyLib
+import MyLibSwift
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        _ = MainLibFile()
+        if ObjcClass2.isCorrectEnum(MyEnum.1) {
+            _ = ObjcClass()
+        }
     }
 }
-
